@@ -169,7 +169,7 @@ export const Home: React.FC = () => {
                 <span className="font-display text-[10px] font-bold uppercase tracking-[0.35em] text-black/50">Catálogo</span>
               </div>
               <h2 className="mt-3 font-display text-5xl font-extrabold uppercase italic leading-[0.88] sm:text-7xl">
-                Dos formas de <span className="text-jay-red">arrancar</span>
+                Elegí tu <span className="text-jay-red">próxima moto</span>
               </h2>
             </div>
             <p className="max-w-sm text-sm leading-relaxed text-black/60">
