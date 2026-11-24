@@ -145,12 +145,12 @@ export const Home: React.FC = () => {
         </div>
 
         {/* Franja multimarca a todo ancho, dentro del hero */}
-        <div className="relative z-10 border-t border-white/10 bg-white py-3">
+        <div className="relative z-10 border-t border-white/20 bg-jay-red py-3">
           <div className="overflow-hidden" aria-hidden="true">
             <div className="flex w-max animate-marquee items-center gap-12 whitespace-nowrap">
               {[...BRANDS, ...BRANDS].map((brand, i) => (
-                <span key={i} className="font-display text-lg font-extrabold italic uppercase tracking-[0.18em] text-black/75 sm:text-xl">
-                  {brand} <span className="ml-12 text-jay-red">/</span>
+                <span key={i} className="font-display text-lg font-extrabold italic uppercase tracking-[0.18em] text-white sm:text-xl">
+                  {brand} <span className="ml-12 text-white/50">/</span>
                 </span>
               ))}
             </div>
